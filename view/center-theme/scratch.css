@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir-Regular.eot");
+    src: url("font/Vazir-Regular.woff") format("woff"),
+    url("font/Vazir-Regular.ttf") format("ttf"),
+    url("font/Vazir-Regular.woff2") format("woff2");
+}
+body{
+    font-family: Vazir;
+}
+h3{
+    color: #bd429d;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    color: #bd429d;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.icon-item-online {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    position: relative;
+    top: 21px;
+    left: 19px;
+    margin-left: -5px;
+    display: inline-block;
+    background: rgba(56,172,56,1);
+    animation: shadow-pulse 1s infinite;
+}
+#searchInfo_content_button:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    color: #bd429d;
+    font-size: 18px;
+    position: relative;
+    left: 2px;
+}
